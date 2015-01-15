@@ -1,6 +1,8 @@
 # KanbanExtJS
 
-Sample application for Kanban.
+Sample application for Kanban. I chose to use ExtJS to build this application.
+I think this library is too heavy for the page I am going to build. But since this is my favorite framework,
+I feel more comfortable to coding with it.
 
 # Application Structure Introduction
 
