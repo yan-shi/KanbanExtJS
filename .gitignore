@@ -1,0 +1,15 @@
+#########Sencha
+/build/
+
+#########Intellij
+.idea/
+*.iml
+*.ipr
+*.iws
+
+#########Windows
+Thumbs.db
+Desktop.ini
+
+#########OS X
+.DS_Store
