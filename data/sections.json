@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Website Development",
+        "teaser": "Custom websites and easy-to-use content management solutions that are scalable, robust and cross browser compatible. Our team has knowledge and experience in all web technologies.",
+        "image": "web-design.png",
+        "url": "#web-design"
+    },
+    {
+        "title": "eCommerce Solutions",
+        "teaser": "Our team will collaborate with you to understand your online objectives and goals, using that information to build a secure and reliable web-based storefront.",
+        "image": "ecommerce.png",
+        "url": "#ecommerce"
+    },
+    {
+        "title": "Mobile Phone applications",
+        "teaser": "Our team specializes in developing mobile applications and websites that deliver on quality, performance and speed.",
+        "image": "mobile.png",
+        "url": "#mobile"
+    }
+]

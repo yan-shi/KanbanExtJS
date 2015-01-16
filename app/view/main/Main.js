@@ -9,39 +9,110 @@ Ext.define('KanbanExtJS.view.main.Main', {
     extend: 'Ext.container.Container',
     requires: [
         'KanbanExtJS.view.main.MainController',
-        'KanbanExtJS.view.main.MainModel'
+        'KanbanExtJS.view.main.MainModel',
+        'KanbanExtJS.view.main.BlackDataView'
     ],
 
     xtype: 'app-main',
-    
+    cls: 'main-container',
     controller: 'main',
     viewModel: {
         type: 'main'
     },
+    layout: 'fit',
+    autoScroll: true,
 
-    layout: {
-        type: 'border'
-    },
-
-    items: [{
-        xtype: 'panel',
-        bind: {
-            title: '{name}'
-        },
-        region: 'west',
-        html: '<ul><li>This area is commonly used for navigation, for example, using a "tree" component.</li></ul>',
-        width: 250,
-        split: true,
-        tbar: [{
-            text: 'Button',
-            handler: 'onClickButton'
-        }]
-    },{
-        region: 'center',
-        xtype: 'tabpanel',
-        items:[{
-            title: 'Tab 1',
-            html: '<h2>Content appropriate for the current navigation.</h2>'
-        }]
-    }]
+    items: [
+        {
+            xtype: 'container',
+            items: [
+                {
+                    xtype: 'container',
+                    itemId: 'header',
+                    html: '<div class="logo">next!</div>' +
+                        '<div class="navigation">' +
+                        '<div>about</div>' +
+                        '<div>services</div>' +
+                        '<div>work</div>' +
+                        '<div>blog</div>' +
+                        '<div>contact</div>' +
+                        '</div>'
+                },
+                {
+                    xtype: 'container',
+                    itemId: 'image-section',
+                    html: '<div class="ad-text-container">' +
+                        '<div class="ad-text">you think it, we build it!</div>' +
+                        '</div>'
+                },
+                {
+                    xtype: 'container',
+                    itemId: 'white-box',
+                    html: '<div class="white-box-container">' +
+                        '<div class="title-text">We are a company of expert developers based in New York City.' +
+                        '<br>Partner with us to achieve your business goals through technology.</div>' +
+                        '<div class="content-container"></div>' +
+                        '<div class="content-text">' +
+                        'Our talented and experienced team has' +
+                        'over 10 years of experience developing world class websites and applications' +
+                        ', and we leverage the latest technologies, content management solutions' +
+                        'open source platforms, and web standards to solve any challenge.' +
+                        '</div>' +
+                        '<div class="button-container">' +
+                        '<div class="learn-more">Learn More</div>' +
+                        '</div>' +
+                        '<div class="x-clear"></div>' +
+                        '</div>' +
+                        '</div>'
+                },
+                {
+                    xtype: 'container',
+                    itemId: 'white-box',
+                    html: '<div class="white-box-container">' +
+                        '<div class="title-text">We are a company of expert developers based in New York City.' +
+                        '<br>Partner with us to achieve your business goals through technology.</div>' +
+                        '<div class="content-container"></div>' +
+                        '<div class="content-text">' +
+                        'Our talented and experienced team has' +
+                        'over 10 years of experience developing world class websites and applications' +
+                        ', and we leverage the latest technologies, content management solutions' +
+                        'open source platforms, and web standards to solve any challenge.' +
+                        '</div>' +
+                        '<div class="button-container">' +
+                        '<div class="learn-more">Learn More</div>' +
+                        '</div>' +
+                        '<div class="x-clear"></div>' +
+                        '</div>' +
+                        '</div>'
+                },
+                {
+                    xtype: 'black-data-view'
+                },
+                {
+                    xtype: 'container',
+                    html: '<div class="footer-container">' +
+                            '<ul class="footer-list">' +
+                                '<li>about</li>' +
+                                '<li>our team</li>' +
+                                '<li>careers</li>' +
+                                '<li>&nbsp;</li>' +
+                                '<li>privacy policy</li>' +
+                            '</ul>' +
+                            '<ul>' +
+                                '<li>work</li>' +
+                                '<li>services</li>' +
+                                '<li>contact</li>' +
+                                '<li>&nbsp;</li>' +
+                                '<li>term of use</li>' +
+                            '</ul>' +
+                            '<div class="social-container">' +
+                                '<div><img src="resources/images/fb.png" height="20" width="20"> Face Book</div>' +
+                                '<div><img src="resources/images/twitter.png" height="20" width="20"> Twitter</div>' +
+                                '<div class="x-clear"></div>' +
+                            '</div>' +
+                        '</div>'
+                }
+            ]
+        }
+    ]
 });

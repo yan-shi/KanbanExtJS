@@ -1,0 +1,193 @@
+/*********************VARIABLES*********************/
+/* line 8, ../sass/app.scss */
+body {
+  overflow: scroll;
+}
+
+/* line 12, ../sass/app.scss */
+.main-container {
+  background: #c80000;
+  padding: 30px 60px !important;
+}
+
+/* line 17, ../sass/app.scss */
+.logo {
+  float: left;
+  text-transform: uppercase;
+  font-family: 'source_sans_probold', sans-serif;
+  font-size: 40px;
+  line-height: 45px;
+}
+
+/* line 25, ../sass/app.scss */
+.navigation {
+  float: right;
+  width: 350px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #000000;
+}
+
+/* line 33, ../sass/app.scss */
+.navigation div {
+  float: left;
+  width: 70px;
+  cursor: pointer;
+  text-align: center;
+  padding: 5px;
+  font-family: 'source_sans_probold', sans-serif;
+  font-size: 12px;
+  line-height: 17px;
+}
+
+/* line 44, ../sass/app.scss */
+.navigation div:hover {
+  color: #b9b9b9;
+  background: #393939;
+}
+
+/* line 49, ../sass/app.scss */
+.ad-text-container {
+  color: #ffffff;
+  text-align: center;
+  padding-top: 45px;
+  padding-bottom: 80px;
+}
+
+/* line 56, ../sass/app.scss */
+.ad-text {
+  display: inline-block;
+  font-family: 'source_sans_probold', sans-serif;
+  font-size: 50px;
+  font-style: italic;
+  line-height: 60px;
+  background: #c87d62;
+  padding: 10px;
+}
+
+/* line 66, ../sass/app.scss */
+.white-box-container {
+  background: #e5e5e5;
+  padding: 15px;
+}
+
+/* line 71, ../sass/app.scss */
+.white-box-container .title-text {
+  font-family: 'source_sans_proregular', sans-serif;
+  font-size: 20px;
+  line-height: 27px;
+}
+
+/* line 77, ../sass/app.scss */
+.white-box-container .content-text {
+  font-family: 'source_sans_proregular', sans-serif;
+  font-size: 11px;
+  width: 70%;
+  float: left;
+}
+
+/* line 84, ../sass/app.scss */
+.white-box-container .button-container {
+  text-align: center;
+  margin-left: 20px;
+}
+
+/* line 89, ../sass/app.scss */
+.white-box-container .learn-more {
+  background: #c87d62;
+  display: inline-block;
+  margin-top: 10px;
+  padding: 7px 15px;
+  cursor: pointer;
+}
+
+/* line 97, ../sass/app.scss */
+.black-data-view-container {
+  background: #000000;
+  color: #ffffff;
+  display: table;
+  margin-bottom: 20px;
+}
+
+/* line 104, ../sass/app.scss */
+.view-section {
+  display: table-cell;
+  width: 33%;
+  float: left;
+  padding: 10px;
+  position: relative;
+  min-height: 180px;
+}
+
+/* line 113, ../sass/app.scss */
+.view-section a {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  text-decoration: none;
+  color: orange;
+  font-style: italic;
+  font-family: 'source_sans_probold', sans-serif;
+}
+
+/* line 123, ../sass/app.scss */
+.black-data-view-container .title {
+  font-family: 'source_sans_proregular', sans-serif;
+  font-size: 16px;
+}
+
+/* line 128, ../sass/app.scss */
+.black-data-view-container .content-container {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/* line 133, ../sass/app.scss */
+.black-data-view-container .image-container {
+  width: 50px;
+  height: 120px;
+  float: left;
+}
+
+/* line 139, ../sass/app.scss */
+.black-data-view-container .content-text {
+  font-family: 'source_sans_proregular', sans-serif;
+  font-size: 11px;
+}
+
+/* line 144, ../sass/app.scss */
+.footer-container {
+  border-top: 2px solid white;
+  color: white;
+  font-family: 'source_sans_proregular', sans-serif;
+  font-size: 13px;
+}
+
+/* line 151, ../sass/app.scss */
+.footer-container ul {
+  list-style-type: none;
+  float: left;
+  padding: 0 10px;
+}
+
+/* line 157, ../sass/app.scss */
+.footer-container li {
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+/* line 162, ../sass/app.scss */
+.social-container {
+  float: right;
+  width: 220px;
+}
+
+/* line 167, ../sass/app.scss */
+.social-container div {
+  float: left;
+  width: 110px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px;
+}
