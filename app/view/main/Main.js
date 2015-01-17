@@ -106,8 +106,8 @@ Ext.define('KanbanExtJS.view.main.Main', {
                                 '<li>term of use</li>' +
                             '</ul>' +
                             '<div class="social-container">' +
-                                '<div><img src="resources/images/fb.png" height="14" width="14"> Face Book</div>' +
-                                '<div><img src="resources/images/twitter.png" height="14" width="14"> Twitter</div>' +
+                                '<div><a href="http://www.kanbansolutions.com/lab.html" target="_blank"><img src="resources/images/fb.png" height="14" width="14"> Face Book</a></div>' +
+                                '<div><a href="http://www.kanbansolutions.com/lab.html" target="_blank"><img src="resources/images/twitter.png" height="14" width="14"> Twitter</a></div>' +
                                 '<div class="x-clear"></div>' +
                             '</div>' +
                         '</div>'

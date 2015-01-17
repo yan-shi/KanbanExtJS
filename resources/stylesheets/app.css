@@ -99,9 +99,15 @@ body {
   margin-top: 10px;
   padding: 7px 15px;
   cursor: pointer;
+  color: white;
 }
 
-/* line 97, ../sass/app.scss */
+/* line 98, ../sass/app.scss */
+.white-box-container .learn-more:hover {
+  background: #e5e5e5;
+}
+
+/* line 102, ../sass/app.scss */
 .black-data-view-container {
   background: #000000;
   color: #ffffff;
@@ -109,7 +115,7 @@ body {
   margin-bottom: 20px;
 }
 
-/* line 104, ../sass/app.scss */
+/* line 109, ../sass/app.scss */
 .view-section {
   display: table-cell;
   width: 33%;
@@ -119,7 +125,7 @@ body {
   min-height: 180px;
 }
 
-/* line 113, ../sass/app.scss */
+/* line 118, ../sass/app.scss */
 .view-section a {
   position: absolute;
   right: 10px;
@@ -130,32 +136,32 @@ body {
   font-family: 'source_sans_probold', sans-serif;
 }
 
-/* line 123, ../sass/app.scss */
+/* line 128, ../sass/app.scss */
 .black-data-view-container .title {
   font-family: 'source_sans_proregular', sans-serif;
   font-size: 16px;
 }
 
-/* line 128, ../sass/app.scss */
+/* line 133, ../sass/app.scss */
 .black-data-view-container .content-container {
   margin-bottom: 20px;
   margin-top: 10px;
 }
 
-/* line 133, ../sass/app.scss */
+/* line 138, ../sass/app.scss */
 .black-data-view-container .image-container {
   width: 50px;
   height: 120px;
   float: left;
 }
 
-/* line 139, ../sass/app.scss */
+/* line 144, ../sass/app.scss */
 .black-data-view-container .content-text {
   font-family: 'source_sans_proregular', sans-serif;
   font-size: 11px;
 }
 
-/* line 144, ../sass/app.scss */
+/* line 149, ../sass/app.scss */
 .footer-container {
   border-top: 2px solid white;
   color: white;
@@ -163,26 +169,27 @@ body {
   font-size: 13px;
 }
 
-/* line 151, ../sass/app.scss */
+/* line 156, ../sass/app.scss */
 .footer-container ul {
   list-style-type: none;
   float: left;
   padding: 0 10px;
 }
 
-/* line 157, ../sass/app.scss */
+/* line 162, ../sass/app.scss */
 .footer-container li {
   text-transform: capitalize;
   cursor: pointer;
 }
 
-/* line 162, ../sass/app.scss */
+/* line 167, ../sass/app.scss */
 .social-container {
   float: right;
   width: 220px;
+  cursor: pointer;
 }
 
-/* line 167, ../sass/app.scss */
+/* line 173, ../sass/app.scss */
 .social-container div {
   float: left;
   width: 110px;
@@ -191,4 +198,11 @@ body {
   line-height: 14px;
   padding: 5px;
   display: inline-block;
+}
+
+/* line 183, ../sass/app.scss */
+.social-container a {
+  text-decoration: none;
+  color: white;
+  font-family: 'source_sans_probold', sans-serif;
 }
