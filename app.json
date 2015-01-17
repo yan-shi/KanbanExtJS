@@ -137,6 +137,12 @@
         {
             "path": "bootstrap.css",
             "bootstrap": true
+        },
+        {
+            "path": "resources/stylesheets/app.css"
+        },
+        {
+            "path": "resources/font/font.css"
         }
     ],
 
@@ -273,6 +279,10 @@
      * Extra resources to be copied along when build
      */
     "resources": [
+        "resources/font",
+        "resources/stylesheets",
+        "resources/images",
+        "data"
     ],
 
     /**

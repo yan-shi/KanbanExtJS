@@ -6,7 +6,7 @@ body {
 
 /* line 12, ../sass/app.scss */
 .main-container {
-  background: #c80000;
+  background: #c80000 !important;
   padding: 30px 60px !important;
 }
 
