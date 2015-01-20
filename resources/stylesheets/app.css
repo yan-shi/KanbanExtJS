@@ -2,6 +2,7 @@
 /* line 10, ../sass/app.scss */
 body {
   overflow: scroll;
+  background: #c80000 !important;
 }
 
 /* line 14, ../sass/app.scss */
