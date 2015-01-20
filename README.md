@@ -22,3 +22,8 @@ for details.
 ## KanbanExtJS/build
 
 This folder contains the generated production code after build. All the code are compressed.
+
+# Live Demo
+Sencha cmd is used to making the production build for this website. All the JS files are compressed into one large app.js file
+to improve the performance.
+URL: www.yan-workshop.com/kanban

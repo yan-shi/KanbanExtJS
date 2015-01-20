@@ -5,6 +5,9 @@
  */
 Ext.define('KanbanExtJS.Application', {
     extend: 'Ext.app.Application',
+    requires: [
+        'KanbanExtJS.view.main.Main'
+    ],
     
     name: 'KanbanExtJS',
 
@@ -14,5 +17,8 @@ Ext.define('KanbanExtJS.Application', {
     
     launch: function () {
         // TODO - Launch the application
+        Ext.create('KanbanExtJS.view.main.Main', {
+            renderTo: Ext.getBody()
+        });
     }
 });

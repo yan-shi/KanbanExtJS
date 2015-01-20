@@ -7,8 +7,6 @@ Ext.application({
     name: 'KanbanExtJS',
 
     extend: 'KanbanExtJS.Application',
-    
-    autoCreateViewport: 'KanbanExtJS.view.main.Main'
 	
     //-------------------------------------------------------------------------
     // Most customizations should be made to KanbanExtJS.Application. If you need to

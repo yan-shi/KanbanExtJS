@@ -27,7 +27,9 @@ Ext.define('KanbanExtJS.view.main.BlackDataView', {
                     '<div class="x-clear"></div>' +
                 '</div>'
         );
-        this.store = Ext.create('KanbanExtJS.store.SectionStore');
+        this.store = Ext.create('KanbanExtJS.store.SectionStore', {
+            storeId: 'section'
+        });
         this.callParent(arguments);
     }
 });

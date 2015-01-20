@@ -19,7 +19,6 @@ Ext.define('KanbanExtJS.view.main.Main', {
     viewModel: {
         type: 'main'
     },
-    layout: 'fit',
     autoScroll: true,
 
     items: [
