@@ -5,6 +5,8 @@ $dark: #000000;
 $orange: #c87d62;
 $light: #e5e5e5;
 
+$small-size: 470px;
+
 body {
   overflow: scroll;
 }
@@ -28,6 +30,12 @@ body {
   text-transform: uppercase;
   color: $white;
   background: $dark;
+  font-family: 'source_sans_probold', sans-serif;
+  @media screen and (max-width: $small-size) {
+    width: 100%;
+    font-size: 9px;
+    line-height: 13px;
+  }
 }
 
 .navigation div {
@@ -36,9 +44,10 @@ body {
   cursor: pointer;
   text-align: center;
   padding: 5px;
-  font-family: 'source_sans_probold', sans-serif;
-  font-size: 12px;
-  line-height: 17px;
+  @media screen and (max-width: $small-size) {
+    width: 20%;
+    padding: 5px 0;
+  }
 }
 
 .navigation div:hover {
@@ -61,6 +70,10 @@ body {
   line-height: 60px;
   background: $orange;
   padding: 10px;
+  @media screen and (max-width: $small-size) {
+    font-size: 30px;
+    line-height: 35px;
+  }
 }
 
 .white-box-container {
@@ -72,6 +85,10 @@ body {
   font-family: 'source_sans_proregular', sans-serif;
   font-size: 20px;
   line-height: 27px;
+  @media screen and (max-width: $small-size) {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }
 
 .white-box-container .content-text {
@@ -79,6 +96,9 @@ body {
   font-size: 11px;
   width: 70%;
   float: left;
+  @media screen and (max-width: $small-size) {
+    width: 100%;
+  }
 }
 
 .white-box-container .button-container {
@@ -113,6 +133,9 @@ body {
   padding: 10px;
   position: relative;
   min-height: 180px;
+  @media screen and (max-width: $small-size) {
+    width: 100%;
+  }
 }
 
 .view-section a {
