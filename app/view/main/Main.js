@@ -6,7 +6,7 @@
  * TODO - Replace this content of this view to suite the needs of your application.
  */
 Ext.define('KanbanExtJS.view.main.Main', {
-    extend: 'Ext.container.Container',
+    extend: 'Ext.container.Viewport',
     requires: [
         'KanbanExtJS.view.main.MainController',
         'KanbanExtJS.view.main.MainModel',
@@ -19,9 +19,7 @@ Ext.define('KanbanExtJS.view.main.Main', {
     viewModel: {
         type: 'main'
     },
-    layout: {
-        type: 'fit'
-    },
+    layout: 'fit',
     autoScroll: true,
 
     items: [
