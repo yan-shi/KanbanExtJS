@@ -11,8 +11,7 @@ Ext.define('KanbanExtJS.store.SectionStore', {
         type: 'ajax',
         url: 'data/sections.json',
         reader: {
-            type: 'json',
-            rootProperty: '.'
+            type: 'json'
         }
     },
     autoLoad: true
